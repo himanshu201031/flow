@@ -50,7 +50,7 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
+
           {children}
         </ThemeProvider>
 
